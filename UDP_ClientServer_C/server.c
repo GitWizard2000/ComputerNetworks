@@ -13,6 +13,14 @@ int main(int argc, char **argv){
     exit(0);
   }
 
+  //--- IGNORE ---
+  printf("%d", argc);
+  printf("\n");
+  printf("%s", argv[0]);
+  printf("\n"); 
+  printf("%s", argv[1]);
+  printf("\n");
+
   char *ip = "127.0.0.1";
   int port = atoi(argv[1]);
 
